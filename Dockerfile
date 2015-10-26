@@ -7,7 +7,7 @@ ADD init.ora /
 ADD initXETemp.ora /
 
 RUN apt-get install -y libaio1 net-tools bc
-RUN ln -s /usr/bin/awk /bin/awk
+#RUN ln -s /usr/bin/awk /bin/awk
 RUN mkdir /var/lock/subsys
 RUN chmod 755 /sbin/chkconfig
 RUN ln -s /proc/mounts /etc/mtab

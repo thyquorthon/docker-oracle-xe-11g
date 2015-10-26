@@ -1,4 +1,4 @@
-FROM wnameless/xe-temp
+FROM wnameless/docker-oracle-xe-11g
 
 MAINTAINER Alexei Ledenev <alexei.led@gmail.com>
 

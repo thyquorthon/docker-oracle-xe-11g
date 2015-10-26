@@ -1,6 +1,6 @@
-FROM wnameless/docker-oracle-xe-11g
+FROM wnameless/oracle-xe-11g
 
-MAINTAINER Alexei Ledenev <alexei.led@gmail.com>
+MAINTAINER Jorge Arevalo Tejeda <jorge@bcnbynight.com>
 
 ADD chkconfig /sbin/chkconfig
 ADD init.ora /
